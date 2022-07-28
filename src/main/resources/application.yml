@@ -1,0 +1,16 @@
+server:
+  port: 8009
+jwt:
+  secret: secretkey123
+
+spring:
+  security:
+    user:
+      name: user
+      password: password
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/RR_Portal
+    username: postgres
+    password: root
